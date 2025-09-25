@@ -1,0 +1,80 @@
+<body>
+  <header>
+    <h1>Vamshi Life Care Hospital, Kagaznagar</h1>
+    <p>Multispeciality care under one roof</p>
+  </header>
+
+  <section class="contact-info">
+    <h2>Contact Us</h2>
+    <p>📍 Kagaznagar, Kumram Bheem Asifabad District</p>
+    <p>📞 <a href="tel:+916300093649">+916300093649
+      
+    <p>🌐 <a href="https://facebook.com">Facebook Page</a></p>
+  </section>
+
+  <section class="alerts">
+    <h2>Latest Announcements</h2>
+    <ul>
+      <li>🩺 Free women's health checkup on 08.03.23</li>
+      <li>🧪 62 diagnostic tests for ₹999 on 05.03.23</li>
+      <li>🧠 Spine consultation with Dr. Sohael Khan on 15.05.22</li>
+    </ul>
+  </section>
+
+  <section class="map">
+    <h2>Find Us</h2>
+    <iframe
+      src="https://www.google.com/maps?q=Kagaznagar&output=embed"
+      width="100%" height="300" style="border:0;" allowfullscreen=""
+      loading="lazy">
+    </iframe>
+  </section>
+  </div>
+</section>
+
+
+  <footer>
+    <p>© 2025 Vamshi Life Care Hospital. All rights reserved.</p>
+  </footer>
+  <div class="lightbox-overlay" id="lightbox">
+  <img src="" alt="Expanded Image" />
+</div>
+
+<script>
+  const lightbox = document.getElementById('lightbox');
+  const lightboxImg = lightbox.querySelector('img');
+
+  document.querySelectorAll('.lightbox').forEach(link => {
+    link.addEventListener('click', e => {
+      e.preventDefault();
+      lightboxImg.src = link.href;
+      lightbox.style.display = 'flex';
+    });
+  });
+
+  lightbox.addEventListener('click', () => {
+    lightbox.style.display = 'none';
+  });
+</script>
+<section class="gallery">
+  <h2>Gallery</h2>
+  <div class="gallery-grid">
+    <a href="images/hospital1.jpg" class="lightbox">
+      <img src="images/hospital1.jpg" alt="Reception Area" />
+    </a>
+    <a href="images/hospital2.jpg" class="lightbox">
+      <img src="images/hospital2.jpg" alt="Patient Room" />
+    </a>
+    <a href="images/hospital3.jpg" class="lightbox">
+      <img src="images/hospital3.jpg" alt="Diagnostic Lab" />
+    </a>
+    <a href="images/hospital4.jpg" class="lightbox">
+      <img src="images/hospital4.jpg" alt="Health Camp Event" />
+    </a>
+  </div>
+</section>
+
+</body>
+</html>
+<button onclick="subscribeAlert()">Subscribe for Updates</button>
+
