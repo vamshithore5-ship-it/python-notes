@@ -1,0 +1,32 @@
+#example :create integer array
+import array
+number = array.array('i',[1,2,3,4])
+print(number)
+
+#create float array
+import array
+floats = array.array('f',[1,1,2,2,3,3])
+print(floats)
+#operation an arrey
+nums=array.array('i',[10,20,30,40])
+print(nums[0])
+#slicing arrays
+print(nums[1:4])
+print(nums[::-1])
+
+#appending elements
+nums.append(40)
+print(nums)
+
+#removing elements
+nums.remove(20)
+print(nums)
+
+#reoving elements by index
+del nums[0]
+print(nums)
+#basic oparations
+print(len(nums))
+print(sum(nums))
+print(min(nums))
+print(max(nums))
